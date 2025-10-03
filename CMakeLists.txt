@@ -9,5 +9,14 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Tambahkan executable dari lexer.cpp
 add_executable(${PROJECT_NAME}
+    src/main.cpp
     src/lexer.cpp
+    src/parser.cpp
+)
+
+target_sources(${PROJECT_NAME}
+    PRIVATE 
+        src/ast.h
+        src/lexer.h
+        src/parser.h
 )

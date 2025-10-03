@@ -1,5 +1,7 @@
 No Tab
 	One Tab
 		Two Tab
-def main(123): 123
+def main(ab);
+extern halo(abc);
+main(123);
 0.5 123.456
